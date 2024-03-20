@@ -33,7 +33,7 @@ class MyHomePage extends ConsumerWidget {
             return const Padding(
               padding: EdgeInsets.only(top: 300),
               child: Center(
-                child: Text('Add a todo using the button bellow'),
+                child: Text('Add a todo using the button below'),
               ),
             );
           } else if (index == activeTodos.length) {
